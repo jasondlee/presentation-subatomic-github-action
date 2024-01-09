@@ -1,5 +1,5 @@
-name: 'My Action'
-description: 'Description of my action'
+name: 'Quarkus Action Demo'
+description: 'A simple, Quarkus-based action'
 inputs:
   github-token:
     description: 'GitHub token'
