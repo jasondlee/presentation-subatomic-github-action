@@ -37,7 +37,7 @@ runs:
       uses: jbangdev/setup-jbang@main
     - name: Run the action
       id: action
-      run: jbang --java 17 --repos 'quarkus-github-action=https://maven.pkg.github.com/my/action-github-repository/' --repos 'mavencentral' com.steeplesoft:subatomic-github-actions:1.0-SNAPSHOT
+      run: jbang --java 17 --repos 'quarkus-github-action=https://maven.pkg.github.com/jasondlee/presentation-subatomic-github-actions/' --repos 'mavencentral' com.steeplesoft:subatomic-github-actions:1.0-SNAPSHOT
       shell: bash
       env:
         JSON_INPUTS: ${{ toJSON(inputs) }}
